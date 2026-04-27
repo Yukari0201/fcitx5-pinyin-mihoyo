@@ -5,7 +5,7 @@ echo "--- 正在更新 mw2fcitx ---"
 pipx install mw2fcitx[opencc] 2>/dev/null || pipx upgrade mw2fcitx[opencc]
 
 DICTS=(
-    "utils/yuanshen_dict.py"
+    "utils/genshin_dict.py"
     "utils/honkai3rd_dict.py"
     "utils/starrail_dict.py"
     "utils/zenlesszonezero_dict.py"
