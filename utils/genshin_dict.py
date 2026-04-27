@@ -39,6 +39,7 @@ exports = {
     "generator": [{
         "use": "rime",
         "kwargs": {
+            "name": "genshin",
             "output": "genshin.dict.yaml"
         }
     }, {

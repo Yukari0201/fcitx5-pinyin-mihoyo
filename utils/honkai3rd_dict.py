@@ -39,6 +39,7 @@ exports = {
     "generator": [{
         "use": "rime",
         "kwargs": {
+            "name": "honkai3rd",
             "output": "honkai3rd.dict.yaml"
         }
     }, {

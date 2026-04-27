@@ -39,6 +39,7 @@ exports = {
     "generator": [{
         "use": "rime",
         "kwargs": {
+            "name": "zenlesszonezero",
             "output": "zenlesszonezero.dict.yaml"
         }
     }, {
