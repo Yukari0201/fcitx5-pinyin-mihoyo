@@ -2,3 +2,6 @@ utils/__pycache__/
 *_titles.txt
 *.dict
 *.dict.yaml
+/build/**
+!/build/build.sh
+!/build/wanxiang.py
