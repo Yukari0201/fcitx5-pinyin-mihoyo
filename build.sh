@@ -29,4 +29,8 @@ echo "--- 复制 build/*.dict.yaml 到 build/wanxiang/"
 mkdir -p build/wanxiang
 cp -p build/*.dict.yaml build/wanxiang/
 
+echo "--- 生成万象专用词库 ---"
+cd build/wanxiang
+python ../wanxiang.py
+
 echo "--- 所有任务已完成 ---"
