@@ -25,4 +25,8 @@ done
 echo "--- 移动 dict/titles 到 build/ "
 mv {*.dict,*.dict.yaml,*_titles.txt} build/
 
+echo "--- 复制 build/*.dict.yaml 到 build/wanxiang/"
+mkdir -p build/wanxiang
+cp -p build/*.dict.yaml build/wanxiang/
+
 echo "--- 所有任务已完成 ---"

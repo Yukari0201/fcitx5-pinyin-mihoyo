@@ -29,7 +29,7 @@ def process_dict_yaml(filename, prefix="wanxiang_"):
 
 # 执行
 if __name__ == "__main__":
-    process_dict_yaml("genshin.dict.yaml")
-    process_dict_yaml("honkai3rd.dict.yaml")
-    process_dict_yaml("starrail.dict.yaml")
-    process_dict_yaml("zenlesszonezero.dict.yaml")
+    process_dict_yaml("wanxiang/genshin.dict.yaml")
+    process_dict_yaml("wanxiang/honkai3rd.dict.yaml")
+    process_dict_yaml("wanxiang/starrail.dict.yaml")
+    process_dict_yaml("wanxiang/zenlesszonezero.dict.yaml")
