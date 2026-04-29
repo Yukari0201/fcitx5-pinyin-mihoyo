@@ -34,7 +34,9 @@ exports = {
         genshin_tweaks,
     "converter": {
         "use": "opencc",
-        "kwargs": {}
+        "kwargs": {
+            "fixfile": "genshin_fixfile.json"
+        }
     },
     "generator": [{
         "use": "rime",
