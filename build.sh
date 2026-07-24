@@ -16,7 +16,7 @@ echo "--- 开始转换词库 ---"
 for dict_path in "${DICTS[@]}"; do
     if [ -f "$dict_path" ]; then
         echo "处理中: $dict_path"
-        mw2fcitx -c "$dict_path" --log-level ERROR || echo "错误: $dict_path 转换失败，跳过。"
+        mw2fcitx -c "$dict_path" || echo "错误: $dict_path 转换失败，跳过。"
     else
         echo "警告: 未找到文件 $dict_path，跳过。"
     fi
